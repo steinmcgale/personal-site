@@ -1,0 +1,46 @@
+.retro-window {
+    width: 320px;
+    background: #e0e0e0;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px #888;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-family: 'Chicago', sans-serif;
+  }
+  
+  .title-bar {
+    background: navy;
+    color: white;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: move;
+  }
+  
+  .window-title {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .window-buttons {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .window-buttons .close,
+  .window-buttons .minimize {
+    width: 12px;
+    height: 12px;
+    background: red;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  
+  .window-content {
+    padding: 1rem;
+    color: black;
+  }
+  
+  

@@ -1,0 +1,85 @@
+body, html {
+    background-color: #87a9d9;
+    margin: 0;
+    font-family: 'Geneva', 'Chicago', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center; 
+  }
+  
+  .desktop {
+    padding: 40px;
+    
+    
+  }
+  
+  .window {
+    width: 450px;
+    max-width: 90vw;
+    background: #fff;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 0 #808080;
+    font-family: 'Geneva', 'Chicago', sans-serif;
+    overflow: hidden;
+  }
+  
+  .title-bar {
+  background: #c0c0c0;
+  border-bottom: 2px solid #808080;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: bold;
+  color: #000;
+  }
+
+ 
+  
+  .window-content {
+    height: 300px; /* Force overflow for scrollbar effect */
+    overflow-y: auto;
+    padding: 16px;
+    background-color: white;
+    font-size: 15px;
+    border-top: 1px solid #808080;
+  }
+  
+  /* Scrollbar styling (Webkit only, Chrome/Safari) */
+.window-content::-webkit-scrollbar {
+    width: 12px;
+    background: #c0c0c0;
+  }
+  
+  .window-content::-webkit-scrollbar-thumb {
+    background: #808080;
+    border: 2px solid #c0c0c0;
+    border-radius: 0;
+  }
+  
+  .welcome-text {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .icon-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .icon {
+    text-align: center;
+    font-size: 10px;
+    color: #000;
+  }
+  
+  .icon img {
+    width: 48px;
+    height: 48px;
+  }
+  
